@@ -1,0 +1,9 @@
+#carousel-container{
+    display: flex;
+    justify-content: center;
+}
+
+#carousel-settings {
+    margin-top: 10%;
+    width: 40%;
+}
