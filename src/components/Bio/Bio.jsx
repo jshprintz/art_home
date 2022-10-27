@@ -6,7 +6,7 @@ function Bio() {
   return (
     <>
       <p id="title-top" className="title">Hi! My name's Leah St. Clair</p>
-      <p className="title">and I'm here to kick some ass!</p>
+      <p id="title-bottom" className="title">and I'm here to kick some ass!</p>
       <div id="profile-pic-container">
         <Image
           id="profile-pic"
