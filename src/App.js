@@ -12,7 +12,8 @@ function App() {
       <AlertBar />
       <NavBar />
       <Carousel />
-
+      <Carousel />
+      <Carousel />
     </>
   );
 }
