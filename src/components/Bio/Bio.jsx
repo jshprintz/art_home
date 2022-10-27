@@ -1,19 +1,23 @@
 import React from "react";
-import Image from 'react-bootstrap/Image'
-import "./Bio.css"
+import Image from "react-bootstrap/Image";
+import "./Bio.css";
 
-function Bio(){
-    return (
-        <div id="profile-pic-container">
-        <Image 
-            id="profile-pic"
-            roundedCircle="true"
-            thumbnail="true"
-            src="https://i.imgur.com/Xpio4Xs.jpg" 
-            alt="Profile Picture"
-            />
-        </div>
-    )
+function Bio() {
+  return (
+    <>
+      <p id="title-top" class="title">Hi! My name's Leah St. Clair</p>
+      <p class="title">and I'm here to kick some ass!</p>
+      <div id="profile-pic-container">
+        <Image
+          id="profile-pic"
+          roundedCircle="true"
+          thumbnail="true"
+          src="https://i.imgur.com/Xpio4Xs.jpg"
+          alt="Profile Picture"
+        />
+      </div>
+    </>
+  );
 }
 
 export default Bio;
