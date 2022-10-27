@@ -1,0 +1,9 @@
+#profile-pic {
+    width: 40%;
+    margin-top: 250px;
+}
+
+#profile-pic-container {
+    display: flex;
+    justify-content: center;
+}
