@@ -1,12 +1,11 @@
 import React from "react";
 import NavBar from "./components/NavBar/NavBar";
-import AlertBar from "./components/AlertBar/AlertBar"
+import AlertBar from "./components/AlertBar/AlertBar";
 import Carousel from "./components/Carousel/Carousel";
 import Bio from "./components/Bio/Bio";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 
 function App() {
   return (
@@ -17,7 +16,11 @@ function App() {
       <Bio />
       <div id="story-buffer"></div>
       <div id="story">Here is my story.</div>
-      <Carousel />
+      <div id="bathroom-buffer"></div>
+      <div id="bathroom">
+        <Carousel />
+      </div>
+
       <Carousel />
       <Carousel />
     </>
