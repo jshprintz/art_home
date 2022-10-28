@@ -13,7 +13,10 @@ function App() {
     <>
       <AlertBar />
       <NavBar />
+      <div id="home"></div>
       <Bio />
+      <div id="story-buffer"></div>
+      <div id="story">Here is my story.</div>
       <Carousel />
       <Carousel />
       <Carousel />

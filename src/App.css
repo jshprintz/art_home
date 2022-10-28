@@ -1,1 +1,12 @@
+#story {
+  background-color: aqua;
+  height: 400px;
+  margin-top: 5%;
+}
+#story-buffer {
+  height: 70px;
+}
 
+#home {
+  height: 70px;
+}

@@ -8,11 +8,11 @@ function NavBar() {
   return (
     <Navbar id="nav-bar" bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#">Art Home</Navbar.Brand>
+        <Navbar.Brand href="#home">Art Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Story</Nav.Link>
+            <Nav.Link href="#story-buffer">Story</Nav.Link>
             <NavDropdown title="Pictures" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Bathroom</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Bedroom</NavDropdown.Item>
