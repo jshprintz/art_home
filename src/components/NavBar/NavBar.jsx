@@ -21,8 +21,8 @@ function NavBar() {
           <Nav className="me-auto">
             <Nav.Link href="#story-buffer">Story</Nav.Link>
             <NavDropdown title="Pictures" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#bathroom-buffer">
-                Bathroom
+              <NavDropdown.Item href="#art">
+                Art
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Bedroom</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Dining</NavDropdown.Item>

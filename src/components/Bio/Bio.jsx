@@ -5,8 +5,6 @@ import "./Bio.css";
 function Bio() {
   return (
     <>
-      <p id="title-top" className="title">Hi! My name's Leah St. Clair</p>
-      <p id="title-bottom" className="title">and I'm here to kick some ass!</p>
       <div id="profile-pic-container">
         <Image
           id="profile-pic"
@@ -15,6 +13,13 @@ function Bio() {
           src="https://i.imgur.com/Xpio4Xs.jpg"
           alt="Profile Picture"
         />
+        Here is my story.
+        <br />
+        <br />
+        I'm an amazing interior designer that you are going to want to hire
+        right away! Browse through my site and admire my many projects. Take a
+        style quiz to find out your style and to secretly give my your contact
+        information. Most importantly, give me your money!!
       </div>
     </>
   );

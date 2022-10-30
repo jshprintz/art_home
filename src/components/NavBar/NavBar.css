@@ -1,13 +1,13 @@
 #nav-bar {
-    margin-top: -20px;
-    position: fixed;
-    width: 100%;
-    z-index: 5;
-    top: 70px;
-    left: 0;
-    background-color: rgb(253, 231, 204);
+  margin-top: -20px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  top: 70px;
+  left: 0;
+  background-color: rgb(253, 231, 204);
 }
 
 #logo-nav {
-    width: 150px;
+  width: 150px;
 }

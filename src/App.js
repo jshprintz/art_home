@@ -13,17 +13,19 @@ function App() {
       <AlertBar />
       <NavBar />
       <div id="home"></div>
-      <Bio />
-      <div id="story-buffer">
-        <div id="story">Here is my story.</div>
-      </div>
+      <Carousel />
 
-      <div id="bathroom-buffer">
-        <div id="bathroom">
-          <Carousel />
+      <div id="story-buffer">
+        <div id="story">
+          <Bio />
         </div>
       </div>
 
+      <div id="art-buffer">
+        <div id="art">
+          <Carousel />
+        </div>
+      </div>
     </div>
   );
 }

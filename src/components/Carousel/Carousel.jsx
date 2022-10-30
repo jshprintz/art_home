@@ -10,8 +10,8 @@ function CarouselBlock() {
           <Carousel.Item>
             <Image
               rounded="true"
-              className="d-block w-100"
-              src="https://i.imgur.com/9RkvEsL.png"
+              className="d-block w-100 carousel-img"
+              src="https://i.imgur.com/r4hPZ72.png"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -22,8 +22,8 @@ function CarouselBlock() {
           <Carousel.Item>
             <Image
               rounded="true"
-              className="d-block w-100"
-              src="https://i.imgur.com/n3RT8Vp.png"
+              className="d-block w-100 carousel-img"
+              src="https://i.imgur.com/O9HDEHO.png"
               alt="Second slide"
             />
 
@@ -35,8 +35,8 @@ function CarouselBlock() {
           <Carousel.Item>
             <Image
               rounded="true"
-              className="d-block w-100"
-              src="https://i.imgur.com/YQaMH3T.jpg"
+              className="d-block w-100 carousel-img"
+              src="https://i.imgur.com/giTthQw.png"
               alt="Third slide"
             />
 
