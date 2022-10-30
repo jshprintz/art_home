@@ -1,11 +1,22 @@
+#landing-page {
+  background-color: #e7d6b7
+}
+
+
 #story {
-  background-color: aqua;
+  background-color: rgb(253, 231, 204);
   height: 400px;
   margin-top: 5%;
+  width: 80%;
+  border-radius: 25px;
+  text-align: center;
 }
+
 #story-buffer {
-  height: 70px;
+  display: flex;
+  justify-content: center;
 }
+
 #bathroom-buffer {
   height: 70px;
 }
