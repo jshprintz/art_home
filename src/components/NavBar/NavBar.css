@@ -5,4 +5,9 @@
     z-index: 5;
     top: 70px;
     left: 0;
+    background-color: rgb(253, 231, 204);
+}
+
+#logo-nav {
+    width: 150px;
 }
