@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar/NavBar";
 import AlertBar from "./components/AlertBar/AlertBar";
 import Carousel from "./components/Carousel/Carousel";
 import Bio from "./components/Bio/Bio";
-import Logo from "./components/Logo/logo";
+import Logo from "./components/Logo/Logo";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";

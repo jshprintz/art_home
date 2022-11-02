@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import LogoModal from "../LogoModal/LogoModal";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { TbLamp } from "react-icons/tb";
 import { BiPaint } from "react-icons/bi";
-import "./logo.css";
+import "./Logo.css";
 
-function logoDetails() {
-  function onClickHandlerDesign() {}
+function LogoDetails() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  function onClickHandlerDesign() {
+    console.log("Handler");
+    <LogoModal handleClose={handleClose} handleShow={handleShow} show={show} />;
+  }
 
   function onClickHandlerArt() {}
 
@@ -30,4 +39,4 @@ function logoDetails() {
   );
 }
 
-export default logoDetails;
+export default LogoDetails;
