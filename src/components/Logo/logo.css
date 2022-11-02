@@ -7,3 +7,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+.icons:hover {
+    color:  #C2ABAF;
+}
