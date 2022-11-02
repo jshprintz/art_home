@@ -11,3 +11,8 @@
 .icons:hover {
     color:  #C2ABAF;
 }
+
+.icon-btn {
+    border: 0px;
+    background-color: rgb(253, 231, 204);
+}
