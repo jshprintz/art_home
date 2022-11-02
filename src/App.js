@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar/NavBar";
 import AlertBar from "./components/AlertBar/AlertBar";
 import Carousel from "./components/Carousel/Carousel";
 import Bio from "./components/Bio/Bio";
-import Logo from "./components/Logo/Logo";
+import LogoModal from "./components/LogoModal/LogoModal";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,7 +16,7 @@ function App() {
       <div id="home"></div>
       <Carousel />
       <div id="logo-details"></div>
-      <Logo />
+      <LogoModal />
 
 
 
@@ -26,11 +26,6 @@ function App() {
         </div>
       </div>
 
-      <div id="art-buffer">
-        <div id="art">
-          <Carousel />
-        </div>
-      </div>
     </div>
   );
 }
