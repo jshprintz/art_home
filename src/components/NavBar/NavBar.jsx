@@ -6,7 +6,7 @@ import "./NavBar.css";
 
 function NavBar() {
   return (
-    <Navbar id="nav-bar" expand="lg">
+    <Navbar fixed="top" id="nav-bar" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
           <Image

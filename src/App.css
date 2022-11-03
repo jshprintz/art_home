@@ -17,13 +17,27 @@
 }
 
 #story-containor-buffer {
-  height: 120px;
+  height: 70px;
 }
 
 #home, #design-details-buffer  {
   height: 70px;
 }
 
-#footer {
-  height: 50vh;
+#footer-buffer {
+  height: 20vh;
+}
+
+@media only screen and (max-width: 1050px) {
+
+  #story-containor-buffer {
+    height: 0px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+
+  #story-containor-buffer {
+    height: 500px;
+  }
 }

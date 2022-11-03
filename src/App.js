@@ -6,6 +6,7 @@ import Bio from "./components/Bio/Bio";
 import LogoModal from "./components/LogoModal/LogoModal";
 import DesignComp from "./components/DesignComp/DesignComp";
 import ReviewCard from "./components/ReviewCard/ReviewCard";
+import Footer from "./components/Footer/Footer";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -35,7 +36,8 @@ function App() {
         <ReviewCard />
         <ReviewCard />
       </div>
-      <div id="footer"></div>
+      <div id="footer-buffer"></div>
+      <Footer />
     </div>
   );
 }
