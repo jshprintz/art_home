@@ -6,7 +6,6 @@
   background-color: rgb(253, 231, 204);
   border: 2px solid #C2ABAF;
   height: 400px;
-  margin-top: 5%;
   width: 80%;
   border-radius: 25px;
   text-align: left;
@@ -17,6 +16,10 @@
   justify-content: space-evenly;
 }
 
-#home, #footer {
+#home, #design-details-buffer {
   height: 70px;
+}
+
+#footer {
+  height: 50vh;
 }

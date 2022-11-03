@@ -1,11 +1,8 @@
 #design-containor{
     height: 70vh;
+    margin-top: 5%;
 }
 
-.sub-header{
-    text-align: center;
-    padding: 10vh;
-}
 
 #design-card-containor {
     display: flex;

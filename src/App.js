@@ -19,8 +19,10 @@ function App() {
       <Carousel />
       <div id="logo-details"></div>
       <LogoModal />
+      <div id="design-details-buffer"></div>
       <div id="designs-details"></div>
       <DesignComp />
+
       <div id="story-containor">
         <div id="story">
           <Bio />
@@ -33,8 +35,6 @@ function App() {
         <ReviewCard />
         <ReviewCard />
       </div>
-      <div id="footer"></div>
-      <div id="footer"></div>
       <div id="footer"></div>
     </div>
   );
