@@ -21,7 +21,7 @@ function NavBar() {
           <Nav className="me-auto">
             <Nav.Link href="#logo-details">Specialities</Nav.Link>
             <Nav.Link href="#design-details-buffer">Styles</Nav.Link>
-            <Nav.Link href="#story-containor">Story</Nav.Link>
+            <Nav.Link href="#story-containor-buffer">Story</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

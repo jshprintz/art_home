@@ -16,6 +16,10 @@
   justify-content: space-evenly;
 }
 
+#story-containor-buffer {
+  height: 120px;
+}
+
 #home, #design-details-buffer {
   height: 70px;
 }
