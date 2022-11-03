@@ -5,6 +5,7 @@ import Carousel from "./components/Carousel/Carousel";
 import Bio from "./components/Bio/Bio";
 import LogoModal from "./components/LogoModal/LogoModal";
 import DesignComp from "./components/DesignComp/DesignComp";
+import ReviewCard from "./components/ReviewCard/ReviewCard";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,8 +27,15 @@ function App() {
         </div>
       </div>
       <div id="reviews-containor">
-        
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
+        <ReviewCard />
       </div>
+      <div id="footer"></div>
+      <div id="footer"></div>
+      <div id="footer"></div>
     </div>
   );
 }

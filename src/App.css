@@ -14,9 +14,9 @@
 
 #story-containor, #reviews-containor {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
-#home {
+#home, #footer {
   height: 70px;
 }

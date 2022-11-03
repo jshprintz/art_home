@@ -1,0 +1,16 @@
+#review-card {
+    height: 10vh;
+    width: 10%;
+    background-color: rgb(253, 231, 204);
+    border: 2px solid #C2ABAF;
+    border-radius: 25px;
+    margin-top: 5%;
+    transition: .5s ease;
+}
+
+#review-card:hover {
+    width: 25%;
+    height: 25vh;
+
+    transition: .5s ease;
+}
