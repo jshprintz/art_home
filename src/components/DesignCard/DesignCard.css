@@ -1,5 +1,6 @@
 #design-card {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 350px;
     width: 350px;
@@ -39,14 +40,6 @@
 
 @media only screen and (max-width: 750px) {
     #design-card, #image-overlay, #design-img {
-        height: 150px;
-        width: 150px;
-    }
-  }
-
-  @media only screen and (max-width: 450px) {
-    #design-card, #image-overlay, #design-img {
-        height: 100px;
-        width: 100px;
+        margin-bottom: 15px;
     }
   }
