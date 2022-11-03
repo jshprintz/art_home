@@ -12,7 +12,7 @@
   text-align: left;
 }
 
-#story-buffer {
+#story-containor, #reviews-containor {
   display: flex;
   justify-content: center;
 }

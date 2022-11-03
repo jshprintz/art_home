@@ -20,13 +20,14 @@ function App() {
       <LogoModal />
       <div id="designs-details"></div>
       <DesignComp />
-
-      <div id="story-buffer">
+      <div id="story-containor">
         <div id="story">
           <Bio />
         </div>
       </div>
-
+      <div id="reviews-containor">
+        
+      </div>
     </div>
   );
 }
