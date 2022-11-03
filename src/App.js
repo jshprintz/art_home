@@ -4,6 +4,7 @@ import AlertBar from "./components/AlertBar/AlertBar";
 import Carousel from "./components/Carousel/Carousel";
 import Bio from "./components/Bio/Bio";
 import LogoModal from "./components/LogoModal/LogoModal";
+import DesignComp from "./components/DesignComp/DesignComp";
 
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,8 +18,8 @@ function App() {
       <Carousel />
       <div id="logo-details"></div>
       <LogoModal />
-
-
+      <div id="designs-details"></div>
+      <DesignComp />
 
       <div id="story-buffer">
         <div id="story">

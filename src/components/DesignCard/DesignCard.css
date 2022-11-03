@@ -1,0 +1,13 @@
+#design-card {
+    display: flex;
+    justify-content: center;
+}
+
+#design-img {
+    height: 30vh;
+    z-index: -1;
+}
+
+#design-img:hover {
+    opacity: .5;
+}

@@ -1,0 +1,13 @@
+#design-containor{
+    height: 60vh;
+}
+
+.sub-header{
+    text-align: center;
+    padding-top: 10vh;
+}
+
+#design-card-containor {
+    display: flex;
+    justify-content: space-evenly;
+}

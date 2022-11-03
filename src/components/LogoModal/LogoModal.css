@@ -5,7 +5,6 @@
     border: 2px solid #C2ABAF;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 .icons:hover {

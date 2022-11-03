@@ -7,7 +7,7 @@ import { TbLamp } from "react-icons/tb";
 import { BiPaint } from "react-icons/bi";
 import "./LogoModal.css";
 
-export default function Example() {
+export default function LogoIcon() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -46,4 +46,4 @@ export default function Example() {
   );
 }
 
-render(<Example />);
+render(<LogoIcon />);
