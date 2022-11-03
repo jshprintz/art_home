@@ -29,3 +29,24 @@
     padding-top: 50px;
     color: rgb(0, 0, 0);
 }
+
+@media only screen and (max-width: 1050px) {
+    #design-card, #image-overlay, #design-img {
+        height: 250px;
+        width: 250px;
+    }
+  }
+
+@media only screen and (max-width: 750px) {
+    #design-card, #image-overlay, #design-img {
+        height: 150px;
+        width: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    #design-card, #image-overlay, #design-img {
+        height: 100px;
+        width: 100px;
+    }
+  }
