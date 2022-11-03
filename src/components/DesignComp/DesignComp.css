@@ -1,10 +1,10 @@
 #design-containor{
-    height: 60vh;
+    height: 100vh;
 }
 
 .sub-header{
     text-align: center;
-    padding-top: 10vh;
+    padding: 10vh;
 }
 
 #design-card-containor {
