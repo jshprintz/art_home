@@ -1,13 +1,15 @@
+import React from "react";
 import Alert from "react-bootstrap/Alert";
 import "./AlertBar.css";
 
-function TopAlert() {
+function TopAlert({headerIntro, headerLinkDisp, headerLinkSrc}) {
   return (
     <>
       <Alert id="alert-bar" key={"warning"} variant={"warning"}>
-        
-          Find out your style TODAY!<button href="#" id="alert-btn"> Click Here for your FREE Style Quiz!
-        </button>
+        {headerIntro} &nbsp; &nbsp; &nbsp; 
+        <Alert.Link href={headerLinkSrc} id="alert-btn">
+          {headerLinkDisp}
+        </Alert.Link>
       </Alert>
     </>
   );

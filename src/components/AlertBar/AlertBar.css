@@ -1,14 +1,9 @@
 #alert-bar {
-    text-align: center;
-    row-gap: 0;
+    text-align: center;   
     position: fixed;
-    width: 100%;
-    z-index: 4;
+    width: 100vw;
+    z-index: 2;
     top: 0;
     left: 0;
 }
 
-#alert-btn{
-    border: 0px;
-    background-color: rgb(255, 241, 201)
-}
