@@ -10,6 +10,7 @@ module.exports = function(req, res, next) {
     // Check if token is valid and not expired
     jwt.verify(token, SECRET, function(err, decoded) {
       if (err) {
+        console.log(err, "HERE IS HTE ERROR")
         req.user = null;
         return next();
       } else {

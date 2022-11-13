@@ -3,7 +3,7 @@ import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
 import "./App.css";
 import SignupPage from "../SignupPage/SignupPage";
 import LoginPage from "../LoginPage/LoginPage";
-import Quiz from "../StyleQuiz/StyleQuiz";
+import StyleQuiz from "../StyleQuiz/StyleQuiz";
 import userService from "../../utils/userService";
 import Home from "../Home/Home";
 
@@ -42,7 +42,7 @@ function App() {
           />
           <Route
             path="/quiz"
-            element={<Quiz loggedUser={user} handleLogout={handleLogout} />}
+            element={<StyleQuiz loggedUser={user} handleLogout={handleLogout} />}
           />
           <Route path="/*" element={<Navigate to="/" />} />
         </Routes>
