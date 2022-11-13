@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import AlertBar from "../../components/AlertBar/AlertBar";
 import Carousel from "../../components/Carousel/Carousel";
-import "./Quiz.css";
+import "./StyleQuiz.css"
 
 export default function Quiz({loggedUser, handleLogout}) {
     const headerIntro = "Already know what you want?";
