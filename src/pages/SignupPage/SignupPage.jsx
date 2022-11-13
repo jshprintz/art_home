@@ -77,7 +77,7 @@ export default function SignUpPage(props) {
       </div>
       <br />
 
-      <p className="medium-font-size" color="grey" textAlign="center">
+      <p className="medium-font-size" color="grey">
         Sign Up
       </p>
       <form onSubmit={handleSubmit}>

@@ -41,16 +41,19 @@ function logout() {
 }
 
 function login(creds) {
+  // HERE IS WHERE THE ERROR IS. CREDS COME IN CORRECT
   return fetch(BASE_URL + "login", {
     method: "POST",
     headers: new Headers({ "Content-Type": "application/json" }),
     body: JSON.stringify(creds),
   })
+  // BY THE TIME IT TURNS INTO RES, IT'S A 404.
     .then((res) => {
       // Valid login if we have a status of 2xx (res.ok)
+      console.log(res, "here is hte res")
       if (res.ok) return res.json();
       return res.json().then((response) => {
-        console.log(response);
+        console.log(response, "Here is the response");
         throw new Error(response.err);
       });
     })

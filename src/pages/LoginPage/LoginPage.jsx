@@ -37,14 +37,14 @@ export default function LoginPage(props) {
     <div id="login-page">
       <div className="centered">
         <br />
-        <a href="/" className="large-font-size centered white-back login-title">
+        <Link to="/" className="large-font-size centered white-back login-title">
           ART HOME
-        </a>
+        </Link>
       </div>
       <br />
       <br />
 
-      <p color="grey" textAlign="center">
+      <p color="grey">
         Log in to your account
       </p>
 
@@ -65,7 +65,7 @@ export default function LoginPage(props) {
           onChange={handleChange}
           required
         />
-        <button color="grey" fluid size="large" type="submit" className="btn">
+        <button color="grey" size="large" type="submit" className="btn">
           Login
         </button>
       </form>
